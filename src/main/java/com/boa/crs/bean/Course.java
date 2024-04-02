@@ -5,4 +5,6 @@ public class Course {
 	Integer courseId;
 	
 	String courseName;
+	
+	Double fees;
 }
