@@ -20,9 +20,5 @@ public interface StudentCRSDAO {
 	public Student getStudent(int id);
 	public List<Course> listOfCourse(int id);
 	public List<Grade> listOfGrade(int id);
-	public void addCourse(Course course,int studentId);
-	public void removeCourse(int studentId,int courseId);
-	public void payFees(int studentId,int courseId,boolean payOnline);
-	
 	
 }

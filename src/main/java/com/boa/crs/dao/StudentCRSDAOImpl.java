@@ -63,22 +63,4 @@ public class StudentCRSDAOImpl implements StudentCRSDAO{
 		return grades;
 	}
 
-	@Override
-	public void addCourse(Course course, int studentId) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void removeCourse(int studentId, int courseId) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void payFees(int studentId, int courseId, boolean payOnline) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
