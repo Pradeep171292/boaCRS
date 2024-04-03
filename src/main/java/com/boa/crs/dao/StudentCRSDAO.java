@@ -23,6 +23,4 @@ public interface StudentCRSDAO {
 	public void addCourse(Course course,int studentId);
 	public void removeCourse(int studentId,int courseId);
 	public void payFees(int studentId,int courseId,boolean payOnline);
-	
-	
 }
